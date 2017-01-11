@@ -1,0 +1,12 @@
+{application, data_streams_erlang,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { data_streams_erlang_app, []}},
+  {env, []}
+ ]}.
